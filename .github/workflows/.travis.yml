@@ -1,0 +1,10 @@
+language: csharp
+mono:
+  - latest
+  - 7.0.2
+
+dotnet: 2.1.502
+solution: TravisApp.sln
+script:
+  - dotnet restore
+  - dotnet test
